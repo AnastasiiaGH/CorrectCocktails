@@ -1,0 +1,155 @@
+@font-face {
+    font-family: "Skema Pro News";
+    src: url("Fonts/SkemaProNews-Medium.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+    font-display: swap;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Skema Pro News", serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+header {
+    position: relative;
+    display: inline-block;
+    align-items: center;
+}
+
+header nav ul li {
+    position: relative;
+    float: left;
+}
+
+header nav ul li a {
+    margin-left: 45px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    padding: 15px;
+    color: #A7A7A7;
+    font-size: 16px;
+    display: block;
+}
+
+header nav ul li a:hover {
+    color: #3773BB;
+}
+
+nav ul li:hover > ul {
+    display: initial;
+}
+
+nav ul li ul li ul {
+    position: absolute;
+    float: left;
+    margin-top: -49px;
+    left: 100%;
+    width: 250px;
+    height: 150px;
+    border: 2px solid #F1F1F1;
+    background: white;
+    display: none;
+}
+
+nav ul li ul li ul li a{
+    line-height: 24px;
+    font-style: normal;
+    text-transform: uppercase;
+    text-align: left;
+    margin-bottom: -10px;
+    white-space: nowrap
+}
+
+.hr-in-menu-in-menu {
+    text-align: left;
+    width: 190px;
+    size: 1px;
+    margin-left: 10px;
+}
+
+.hr-in-menu {
+    text-align: left;
+    width: 220px;
+    size: 1px;
+    margin-left: 10px;
+}
+
+.arrow-down {
+    content: url('arrow.png');
+    display: inline-block;
+    width: 13px;
+    height: 7px;
+    margin-bottom: 2px;
+}
+
+.arrow-right {
+    content: url('arrow.png');
+    display: inline-block;
+    width: 13px;
+    height: 7px;
+    margin-bottom: 2px;
+    transform: rotate(270deg);
+}
+
+nav ul li ul li a{
+    font-style: normal;
+    line-height: 24px;
+    text-transform: uppercase;
+    text-align: left;
+    margin-bottom: -10px;
+    margin-left: -5px;
+    margin-top: 4px;
+}
+
+nav ul li ul li {
+    width: 65%;
+    margin-left: 10px;
+}
+
+.first-list {
+    position: absolute;
+    left: 40px;
+    margin-top: -47px;
+    width: 380px;
+    height: 280px;
+    background: white;
+    border: 2px solid #F1F1F1;
+    display: none;
+}
+
+.two-list {
+    position: absolute;
+    left: 40px;
+    margin-top: -47px;
+    width: 264px;
+    height: 627px;
+    background: white;
+    border: 2px solid #F1F1F1;
+    display: none;
+}
+
+.ul-orange-liker {
+    position: absolute;
+    float: left;
+    margin-top: -49px;
+    left: 100%;
+    width: 250px;
+    height: 51px;
+    border: 2px solid #F1F1F1;
+    background: white;
+    display: none;
+}
+
+.a-orange-liker {
+    line-height: 24px;
+    font-style: normal;
+    text-transform: uppercase;
+    text-align: left;
+    margin-bottom: -10px;
+    white-space: nowrap
+}
